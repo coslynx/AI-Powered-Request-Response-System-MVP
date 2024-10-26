@@ -1,0 +1,24 @@
+{
+  "commands": [
+    {
+      "command": "pip install -r requirements.txt",
+      "description": "Install Python dependencies"
+    },
+    {
+      "command": "alembic init migrations",
+      "description": "Initialize Alembic for database migrations"
+    },
+    {
+      "command": "alembic upgrade head",
+      "description": "Apply database migrations"
+    },
+    {
+      "command": "uvicorn main:app --reload",
+      "description": "Start the FastAPI development server"
+    },
+    {
+      "command": "pytest",
+      "description": "Run unit tests"
+    }
+  ]
+}

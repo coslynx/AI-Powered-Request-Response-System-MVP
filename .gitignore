@@ -1,0 +1,33 @@
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore testing files
+tests/
+
+# Ignore generated database migrations
+migrations/
+
+# Ignore python cache files
+*.pyc
+__pycache__/
+
+# Ignore coverage reports
+coverage.xml
+htmlcov/
+
+# Ignore documentation files
+docs/
+
+# Ignore logging files
+logs/
+
+# Ignore Sentry SDK configuration files
+.sentryclirc
+
+# Ignore environment variables
+.env
